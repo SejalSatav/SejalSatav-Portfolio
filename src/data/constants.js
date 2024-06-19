@@ -10,7 +10,7 @@ export const Bio = {
         "Every day, I strive to enhance my abilities in combining the power of creativity with logical thinking, which I believe is the key to crafting exceptional code. This fusion of imagination and technical skills enables me to bring innovative ideas to life. I am committed to continuously expanding my knowledge and refining my skills to deliver the best possible solutions.",
     github: "https://github.com/SejalSatav",
     resume:
-        "https://drive.google.com/file/d/152Cs11rFaLSRl1C894g_DjuFB-8uqT4-/view?usp=sharing",
+        "https://drive.google.com/file/d/1H67NT0-8QJE07agb0HTTZAXzIAC4EwjR/view?usp=sharing",
     patent: "https://drive.google.com/file/d/1L9pwxSnJteoJ-Nmd2sEJm2AK5U4L8aKS/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sejal-satav/",
     insta: "https://www.instagram.com/duh.sejal?igsh=M2dpdm5nYThiMWo5",
