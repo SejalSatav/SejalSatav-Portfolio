@@ -31,7 +31,7 @@ const Logo = styled.h1`
   color: ${({ theme }) => theme.primary};
 `;
 
-const Nav = styled.nav`
+const NavItems = styled.nav`
   width: 100%;
   max-width: 800px;
   margin-top: 0.5rem;
@@ -89,13 +89,13 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Sejal Satav</Logo>
-        <Nav>
+        <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-        </Nav>
+        </NavItems>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
