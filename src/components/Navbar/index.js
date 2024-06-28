@@ -92,7 +92,7 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const GithubButton = styled.button`
+const GithubButton = styled.a`
   background-color: transparent;
   color: ${({ theme }) => theme.primary};
   border: 1.8px solid ${({ theme }) => theme.primary};
@@ -140,7 +140,7 @@ const MobileMenu = styled.div`
   z-index: ${({ open }) => (open ? "1" : "-1")};
 `;
 
-const MobileMenuLinks = styled(LinkR)`
+const MobileMenuLinks = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
@@ -154,6 +154,15 @@ const MobileMenuLinks = styled(LinkR)`
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
+
+  const handleLinkClick = (e, id) => {
+    e.preventDefault();
+    const target = document.querySelector(id);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+    setOpen(false);
+  };
 
   return (
     <Nav>
@@ -182,7 +191,7 @@ const Navbar = () => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton as="a" href={Bio.github} target="_blank">
+          <GithubButton href={Bio.github} target="_blank">
             Github Profile
           </GithubButton>
         </ButtonContainer>
@@ -191,31 +200,31 @@ const Navbar = () => {
         <MobileMenu open={open}>
           <MobileMenuLinks
             href="#about"
-            onClick={() => setOpen(!open)}
+            onClick={(e) => handleLinkClick(e, "#about")}
           >
             About
           </MobileMenuLinks>
           <MobileMenuLinks
             href="#skills"
-            onClick={() => setOpen(!open)}
+            onClick={(e) => handleLinkClick(e, "#skills")}
           >
             Skills
           </MobileMenuLinks>
           <MobileMenuLinks
             href="#experience"
-            onClick={() => setOpen(!open)}
+            onClick={(e) => handleLinkClick(e, "#experience")}
           >
             Experience
           </MobileMenuLinks>
           <MobileMenuLinks
             href="#projects"
-            onClick={() => setOpen(!open)}
+            onClick={(e) => handleLinkClick(e, "#projects")}
           >
             Projects
           </MobileMenuLinks>
           <MobileMenuLinks
             href="#education"
-            onClick={() => setOpen(!open)}
+            onClick={(e) => handleLinkClick(e, "#education")}
           >
             Education
           </MobileMenuLinks>
