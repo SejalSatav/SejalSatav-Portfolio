@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SejalSatav-Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/SejalSatav-Portfolio/static/js/main.f60d9f85.js",
+    "main.js": "/SejalSatav-Portfolio/static/js/main.0cacc91b.js",
     "static/media/website_pic.jpg": "/SejalSatav-Portfolio/static/media/website_pic.cdd70bbb3a8653cf4414.jpg",
     "index.html": "/SejalSatav-Portfolio/index.html",
     "main.bf538fe7.css.map": "/SejalSatav-Portfolio/static/css/main.bf538fe7.css.map",
-    "main.f60d9f85.js.map": "/SejalSatav-Portfolio/static/js/main.f60d9f85.js.map"
+    "main.0cacc91b.js.map": "/SejalSatav-Portfolio/static/js/main.0cacc91b.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.f60d9f85.js"
+    "static/js/main.0cacc91b.js"
   ]
 }
