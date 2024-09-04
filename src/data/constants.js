@@ -11,7 +11,7 @@ export const Bio = {
     github: "https://github.com/SejalSatav",
     resume:
         "https://drive.google.com/file/d/1a79uKZgYnFwn1dFpMZTrQTku-ha961gS/view?usp=sharing",
-    patent: "https://drive.google.com/file/d/1L9pwxSnJteoJ-Nmd2sEJm2AK5U4L8aKS/view?usp=sharing",
+    patent: "https://drive.google.com/file/d/1hgrRgXsgr5Efa2Y_ruRnE3fATDwKaM7U/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sejal-satav/",
     insta: "https://www.instagram.com/duh.sejal?igsh=M2dpdm5nYThiMWo5",
     facebook: "https://www.facebook.com/sejal.satav.5",
@@ -194,7 +194,7 @@ export const experiences = [
         role: "Graduate Apprentice Trainee",
         company: "Mahindra and Mahindra",
         date: "Aug 2022 - Nov 2022",
-        desc: "In a concerted effort to enhance the performance of the login and registration system, I employed Java multithreading and concurrency techniques, significantly reducing system latency and ensuring a seamless user authentication process. To further bolster the software architecture, I integrated advanced Java design patterns, including Singleton, Factory, and Observer, thereby improving scalability, maintainability, and overall system flexibility. Leveraging Java EE technologies such as Servlets, JSP, and JMS, I was able to construct and deploy robust, distributed, and enterprise-level applications, underscoring my proficiency in managing intricate software systems. To guarantee the system's reliability and stability, I utilized Java debugging and profiling tools like JConsole, VisualVM, and Eclipse Debugger, effectively addressing performance bottlenecks, memory leaks, and runtime errors. Furthermore, I conducted rigorous unit and integration testing using Java-based frameworks, including JUnit, TestNG, and Mockito, to ensure the quality and functionality of the developed features.",
+        desc: "I developed over 20 interactive and responsive web pages using HTML5, CSS3, JavaScript, and React, incorporating AJAX to update content dynamically, which enhanced the user experience by enabling real-time content loading. I directed the UI/UX redesign for major web applications, leading to a 50% increase in user engagement and a notable decrease in bounce rates. I also performed comprehensive accessibility and performance tests to ensure the application met the university's stringent standards for usability and accessibility. Additionally, I developed and maintained content within the company’s CMS using advanced templating techniques, which significantly improved content dynamism and user satisfaction.",
         skills: [
             "Java/J2EE",
             "MySQL",
@@ -236,7 +236,7 @@ export const experiences = [
     {
         id: 2,
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-dd5ef.appspot.com/o/innovatus_technologies.jpg?alt=media&token=6cb90e60-44d2-442a-9b73-09cb141db766",
-        role: "Software Analyst Intern",
+        role: "Software Analyst Inter",
         company: "Innovatus Technologies",
         date: "May 2021 - Nov 2021",
         desc: "Spearheaded the development of multiple projects, utilizing a diverse tech stack including Java, Node.js, Angular, and MongoDB, to enhance overall system precision and efficiency. Executed a comprehensive optimization of intricate queries, leading to a significant 50% improvement in the performance of Postgres SQL Server databases. Managed and orchestrated Tomcat servers for seamless project deployments, resulting in a substantial 30% reduction in server downtime and ensuring uninterrupted operations.",
